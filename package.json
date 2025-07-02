@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "description": "YJS WebSocket service for collaborative editing",
     "scripts": {
-      "start": "HOST=0.0.0.0 PORT=$PORT npx y-websocket-server",
-      "dev": "HOST=localhost PORT=4500 npx y-websocket-server"
+      "start": "HOST=0.0.0.0 PORT=$PORT npx y-websocket",
+      "dev": "HOST=localhost PORT=4500 npx y-websocket"
     },
     "dependencies": {
       "y-websocket": "^3.0.0"
